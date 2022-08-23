@@ -1,0 +1,15 @@
+{
+  "name": "Search Ebay Sold",
+  "description": "Searches Ebay for sold items based on highlighted text with context menu.",
+  "version": "1.0",
+  "manifest_version": 3,
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": ["contextMenus"],
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  }
+}
